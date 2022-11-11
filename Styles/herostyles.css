@@ -1,0 +1,130 @@
+/* hero section styles!! */
+.hero-section {
+    width: 100%;
+    height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+
+}
+
+/* Left Section!! */
+.hero-section>.left-section {
+    width: 100%;
+    max-width: 700px;
+    height: 590px;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section>.left-section>.text {
+    letter-spacing: 0.8px;
+    width: 80%;
+    height: 160px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: rgb(195, 191, 191);
+    padding: 10px 0px;
+}
+
+.hero-section>.left-section>.text a {
+    color: white;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+.hero-section>.left-section>.text2 {
+    margin-top: -40px;
+    padding: 10px 0px;
+    width: 80%;
+    height: 150px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgb(195, 191, 191);
+}
+
+.hero-section>.left-section>.buttons {
+    width: 70%;
+    max-width: 600px;
+    height: 140px;
+    margin-bottom: 170px;
+    margin-top: 12px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row 1.1fr 0.9fr;
+    align-items: left;
+    justify-content: stretch
+}
+
+.hero-section>.left-section>.buttons>.btn {
+    width: 100%;
+    height: 66px;
+    padding: 8px 0px;
+    background-color: rgb(12, 194, 45);
+    border: none;
+    border-radius: 6px;
+    font-family: 'lato', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    transition: 0.7s;
+}
+
+.hero-section>.left-section>.buttons>:nth-child(2) {
+    width: 60%;
+    height: 66px;
+    padding: 8px 4px;
+    margin-left: 5px;
+    background-color: rgb(6, 6, 6);
+    border: none;
+    border-radius: 6px;
+    font-family: 'lato', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: white;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 30px rgba(45, 231, 94, 0.4);
+    letter-spacing: 2em;
+}
+
+.btn:active {
+    box-shadow: 7px 7px 30px rgba(231, 194, 45, 0.7);
+}
+ 
+.hero-section>.right-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    height: 590px;
+    
+}
+.hero-section>.right-section> span {
+    font-size: 1.2em;   
+    margin-top: 40px;
+    text-align: left;
+
+
+}
+
+.hero-section>.right-section> .image> img {
+    width: 100%;
+    height: 100%;
+    max-width: 650px;
+    max-height: 500px;
+    margin:2px 40px 0px 0px;
+    float: left;
+}

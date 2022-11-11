@@ -1,0 +1,27 @@
+/* FOOTER STYLES!! */
+.footer {
+    /* position: fixed; */
+    width: 100%;
+    max-width: 1920px;
+    height: 80px;
+    background-color: transparent;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content:space-around;
+    margin-bottom: 7px;
+}
+.footer>.links a {
+    width: 100%;
+    max-width: 232px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    text-decoration: none;
+    margin-right: 25px;
+    width: 100%;
+    padding: 5px 20px;
+    border: 2px solid gray;
+    background-color: transparent;
+}
